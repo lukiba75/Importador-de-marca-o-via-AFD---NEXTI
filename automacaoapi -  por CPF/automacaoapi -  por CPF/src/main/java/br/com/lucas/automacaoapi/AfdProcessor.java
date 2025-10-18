@@ -17,8 +17,8 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 public class AfdProcessor {
 
     private static final String BASE_URL = "https://api.nexti.com";
-    private static final String CLIENT_ID = "westcargo";
-    private static final String CLIENT_SECRET = "a223e9728af92afe853c9a46f0a3c7dc19f4300f";
+    private static final String CLIENT_ID = "";
+    private static final String CLIENT_SECRET = "";
 
     private static final HttpClient httpClient = HttpClient.newHttpClient();
     private static final ObjectMapper mapper = new ObjectMapper();
@@ -282,3 +282,4 @@ public class AfdProcessor {
         log("------------------------------\n");
     }
 }
+
